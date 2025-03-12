@@ -1,0 +1,10 @@
+fastapi # cài đặt thư viện fastapi
+uvicorn # cài đặt thư viện uvicorn
+sqlalchemy # cài đặt thư viện sqlalchemy dùng để kết nối với database
+python-dotenv # cài đặt thư viện python-dotenv dùng để đọc file .env
+passlib # cài đặt thư viện passlib dùng để mã hóa password
+pydantic # cài đặt thư viện pydantic dùng để validate dữ liệu
+sqlacodegen # cài đặt thư viện sqlacodegen dùng để sinh ra model từ database
+asyncmy # cài đặt thư viện asyncmy dùng để kết nối với database mysql
+mysql-connector-python # cài đặt thư viện mysql-connector-python dùng để kết nối với database mysql
+fastapi[all] # cài đặt thư viện fastapi[all] bao gồm tất cả các thư viện cần thiết

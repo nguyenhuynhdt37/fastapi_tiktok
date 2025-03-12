@@ -1,0 +1,964 @@
+[
+    {
+        "label": "get_db",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "check_is_email",
+        "importPath": "app.libs.checkSyntax",
+        "description": "app.libs.checkSyntax",
+        "isExtraImport": true,
+        "detail": "app.libs.checkSyntax",
+        "documentation": {}
+    },
+    {
+        "label": "check_email_async",
+        "importPath": "app.repositories.users",
+        "description": "app.repositories.users",
+        "isExtraImport": true,
+        "detail": "app.repositories.users",
+        "documentation": {}
+    },
+    {
+        "label": "CreateNewUser",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKeyConstraint",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Index",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKeyConstraint",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Index",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKeyConstraint",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Index",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "VARCHAR",
+        "importPath": "sqlalchemy.dialects.mysql",
+        "description": "sqlalchemy.dialects.mysql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.mysql",
+        "documentation": {}
+    },
+    {
+        "label": "VARCHAR",
+        "importPath": "sqlalchemy.dialects.mysql",
+        "description": "sqlalchemy.dialects.mysql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.mysql",
+        "documentation": {}
+    },
+    {
+        "label": "VARCHAR",
+        "importPath": "sqlalchemy.dialects.mysql",
+        "description": "sqlalchemy.dialects.mysql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.mysql",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "TblUser",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "importPath": "app.api.routers.v1",
+        "description": "app.api.routers.v1",
+        "isExtraImport": true,
+        "detail": "app.api.routers.v1",
+        "documentation": {}
+    },
+    {
+        "label": "users_router",
+        "importPath": "app.api.routers.v1",
+        "description": "app.api.routers.v1",
+        "isExtraImport": true,
+        "detail": "app.api.routers.v1",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.routers.v1.auth",
+        "description": "app.api.routers.v1.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Auth\"])\n@router.get('/check_email', status_code=status.HTTP_200_OK)\nasync def check_email(email: str = Query(...), db: AsyncSession = Depends(get_db)):\n    if not check_is_email(email):\n        raise HTTPException(status_code=400, detail=\"Email không hợp lệ\")\n    return await check_email_async(email=email, db=db)",
+        "detail": "app.api.routers.v1.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.routers.v1.users",
+        "description": "app.api.routers.v1.users",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n@router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_user(request: CreateNewUser, db: AsyncSession = Depends(get_db)):\n    pass",
+        "detail": "app.api.routers.v1.users",
+        "documentation": {}
+    },
+    {
+        "label": "MYSQL_DB_CONNECT",
+        "kind": 5,
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "peekOfCode": "MYSQL_DB_CONNECT = os.getenv(\n    \"MYSQL_DB_CONNECT\", \"mysql+asyncmy://admin:passs@localhost:3306/tiktok\")\nprint(MYSQL_DB_CONNECT)\nengine = create_async_engine(MYSQL_DB_CONNECT, echo=True)\nprint(engine)\nasync_session = async_session = async_sessionmaker(\n    engine, class_=AsyncSession, expire_on_commit=False)\nasync def get_db():\n    async with async_session() as session:\n        yield session",
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "peekOfCode": "engine = create_async_engine(MYSQL_DB_CONNECT, echo=True)\nprint(engine)\nasync_session = async_session = async_sessionmaker(\n    engine, class_=AsyncSession, expire_on_commit=False)\nasync def get_db():\n    async with async_session() as session:\n        yield session",
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "kind": 5,
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "peekOfCode": "async_session = async_session = async_sessionmaker(\n    engine, class_=AsyncSession, expire_on_commit=False)\nasync def get_db():\n    async with async_session() as session:\n        yield session",
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "check_is_email",
+        "kind": 2,
+        "importPath": "app.libs.checkSyntax",
+        "description": "app.libs.checkSyntax",
+        "peekOfCode": "def check_is_email(email: str) -> bool:\n    return True if re.match(r\"[^@]+@[^@]+\\.[^@]+\", email) else False",
+        "detail": "app.libs.checkSyntax",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass Hashtag(Base):\n    __tablename__ = 'hashtag'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    video: Mapped[List['Video']] = relationship(\n        'Video', secondary='video_hastag', back_populates='hashtag')\nclass TblRole(Base):\n    __tablename__ = 'tblRole'",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Hashtag",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Hashtag(Base):\n    __tablename__ = 'hashtag'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    video: Mapped[List['Video']] = relationship(\n        'Video', secondary='video_hastag', back_populates='hashtag')\nclass TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblRole",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)\n    tblUser: Mapped[List['TblUser']] = relationship(\n        'TblUser', back_populates='role')\nclass TblUser(Base):\n    __tablename__ = 'tblUser'\n    __table_args__ = (",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblUser",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class TblUser(Base):\n    __tablename__ = 'tblUser'\n    __table_args__ = (\n        ForeignKeyConstraint(['role_id'], ['tblRole.id'],\n                             name='tblUser_ibfk_1'),\n        Index('email', 'email', unique=True),\n        Index('role_id', 'role_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    phone_number: Mapped[Optional[str]] = mapped_column(VARCHAR(50))",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblFollower",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class TblFollower(Base):\n    __tablename__ = 'tblFollower'\n    __table_args__ = (\n        ForeignKeyConstraint(['follower_id'], ['tblUser.id'],\n                             name='tblFollower_ibfk_2'),\n        ForeignKeyConstraint(['id'], ['tblUser.id'],\n                             name='tblFollower_ibfk_1'),\n        Index('follower_id', 'follower_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Video(Base):\n    __tablename__ = 'video'\n    __table_args__ = (\n        ForeignKeyConstraint(['owner_id'], ['tblUser.id'],\n                             name='video_ibfk_1'),\n        Index('owner_id', 'owner_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    owner_id: Mapped[Optional[int]] = mapped_column(Integer)\n    picture_cover: Mapped[Optional[str]] = mapped_column(VARCHAR(255))",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ViewProfile",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class ViewProfile(Base):\n    __tablename__ = 'view_profile'\n    __table_args__ = (\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'],\n                             name='view_profile_ibfk_2'),\n        ForeignKeyConstraint(['viewer_id'], ['tblUser.id'],\n                             name='view_profile_ibfk_1'),\n        Index('viewer_id', 'viewer_id')\n    )\n    user_id: Mapped[int] = mapped_column(Integer, primary_key=True)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Comment(Base):\n    __tablename__ = 'comment'\n    __table_args__ = (\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'],\n                             name='comment_ibfk_2'),\n        ForeignKeyConstraint(['video_id'], ['video.id'],\n                             name='comment_ibfk_1'),\n        Index('user_id', 'user_id'),\n        Index('video_id', 'video_id')\n    )",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReactComment",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class ReactComment(Base):\n    __tablename__ = 'react_comment'\n    __table_args__ = (\n        ForeignKeyConstraint(['comment_id'], ['comment.id'],\n                             name='react_comment_ibfk_1'),\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'],\n                             name='react_comment_ibfk_2'),\n        Index('comment_id', 'comment_id'),\n        Index('user_id', 'user_id')\n    )",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "t_video_hastag",
+        "kind": 5,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "t_video_hastag = Table(\n    'video_hastag', Base.metadata,\n    Column('video_id', Integer, primary_key=True, nullable=False),\n    Column('hashtag_id', Integer, primary_key=True, nullable=False),\n    ForeignKeyConstraint(['hashtag_id'], ['hashtag.id'],\n                         name='video_hastag_ibfk_2'),\n    ForeignKeyConstraint(['video_id'], ['video.id'],\n                         name='video_hastag_ibfk_1'),\n    Index('hashtag_id', 'hashtag_id')\n)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateNewUser",
+        "kind": 6,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "class CreateNewUser(BaseModel):\n    name: str = Field(min_length=8, max_length=50,\n                      description=\"Tên phải từ 8 đến 50 ký tự\")\n    email: str = Field(min_length=1,\n                       description=\"Email không được để trống\")\n    password: str = Field(min_length=8, max_length=50,\n                          description=\"Mật khẩu phải từ 8 đến 50 ký tự\")",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "read_root",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def read_root():\n    return {\"Hello\": \"World\"}\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(app, host=HOST, port=PORT, workers=1)",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(debug=True)\napp.include_router(auth_router, prefix=\"/api/v1\")\n# app.include_router(users_router, prefix=\"api/v1\")\n# Cấu hình CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Cho phép tất cả các domain\n    allow_credentials=True,\n    # Cho phép tất cả phương thức (GET, POST, PUT, DELETE, ...)\n    allow_methods=[\"*\"],",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass Hashtag(Base):\n    __tablename__ = 'hashtag'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    video: Mapped[List['Video']] = relationship('Video', secondary='video_hastag', back_populates='hashtag')\nclass TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Hashtag",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class Hashtag(Base):\n    __tablename__ = 'hashtag'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    video: Mapped[List['Video']] = relationship('Video', secondary='video_hastag', back_populates='hashtag')\nclass TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblRole",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)\n    tblUser: Mapped[List['TblUser']] = relationship('TblUser', back_populates='role')\nclass TblUser(Base):\n    __tablename__ = 'tblUser'\n    __table_args__ = (\n        ForeignKeyConstraint(['role_id'], ['tblRole.id'], name='tblUser_ibfk_1'),",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblUser",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class TblUser(Base):\n    __tablename__ = 'tblUser'\n    __table_args__ = (\n        ForeignKeyConstraint(['role_id'], ['tblRole.id'], name='tblUser_ibfk_1'),\n        Index('email', 'email', unique=True),\n        Index('role_id', 'role_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    phone_number: Mapped[Optional[str]] = mapped_column(VARCHAR(50))\n    email: Mapped[Optional[str]] = mapped_column(VARCHAR(255))",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblFollower",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class TblFollower(TblUser):\n    __tablename__ = 'tblFollower'\n    __table_args__ = (\n        ForeignKeyConstraint(['follower_id'], ['tblUser.id'], name='tblFollower_ibfk_2'),\n        ForeignKeyConstraint(['id'], ['tblUser.id'], name='tblFollower_ibfk_1'),\n        Index('follower_id', 'follower_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    follower_id: Mapped[Optional[int]] = mapped_column(Integer)\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class Video(Base):\n    __tablename__ = 'video'\n    __table_args__ = (\n        ForeignKeyConstraint(['owner_id'], ['tblUser.id'], name='video_ibfk_1'),\n        Index('owner_id', 'owner_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    owner_id: Mapped[Optional[int]] = mapped_column(Integer)\n    picture_cover: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    title: Mapped[Optional[str]] = mapped_column(Text)",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "ViewProfile",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class ViewProfile(TblUser):\n    __tablename__ = 'view_profile'\n    __table_args__ = (\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'], name='view_profile_ibfk_2'),\n        ForeignKeyConstraint(['viewer_id'], ['tblUser.id'], name='view_profile_ibfk_1'),\n        Index('viewer_id', 'viewer_id')\n    )\n    user_id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    viewer_id: Mapped[Optional[int]] = mapped_column(Integer)\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class Comment(Base):\n    __tablename__ = 'comment'\n    __table_args__ = (\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'], name='comment_ibfk_2'),\n        ForeignKeyConstraint(['video_id'], ['video.id'], name='comment_ibfk_1'),\n        Index('user_id', 'user_id'),\n        Index('video_id', 'video_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    video_id: Mapped[Optional[int]] = mapped_column(Integer)",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReactComment",
+        "kind": 6,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "class ReactComment(Base):\n    __tablename__ = 'react_comment'\n    __table_args__ = (\n        ForeignKeyConstraint(['comment_id'], ['comment.id'], name='react_comment_ibfk_1'),\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'], name='react_comment_ibfk_2'),\n        Index('comment_id', 'comment_id'),\n        Index('user_id', 'user_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    comment_id: Mapped[Optional[int]] = mapped_column(Integer)",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "t_video_hastag",
+        "kind": 5,
+        "importPath": "app.model.models",
+        "description": "app.model.models",
+        "peekOfCode": "t_video_hastag = Table(\n    'video_hastag', Base.metadata,\n    Column('video_id', Integer, primary_key=True, nullable=False),\n    Column('hashtag_id', Integer, primary_key=True, nullable=False),\n    ForeignKeyConstraint(['hashtag_id'], ['hashtag.id'], name='video_hastag_ibfk_2'),\n    ForeignKeyConstraint(['video_id'], ['video.id'], name='video_hastag_ibfk_1'),\n    Index('hashtag_id', 'hashtag_id')\n)\nclass ReactComment(Base):\n    __tablename__ = 'react_comment'",
+        "detail": "app.model.models",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass Hashtag(Base):\n    __tablename__ = 'hashtag'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    video: Mapped[List['Video']] = relationship('Video', secondary='video_hastag', back_populates='hashtag')\nclass TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Hashtag",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Hashtag(Base):\n    __tablename__ = 'hashtag'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    video: Mapped[List['Video']] = relationship('Video', secondary='video_hastag', back_populates='hashtag')\nclass TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblRole",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class TblRole(Base):\n    __tablename__ = 'tblRole'\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)\n    tblUser: Mapped[List['TblUser']] = relationship('TblUser', back_populates='role')\nclass TblUser(Base):\n    __tablename__ = 'tblUser'\n    __table_args__ = (\n        ForeignKeyConstraint(['role_id'], ['tblRole.id'], name='tblUser_ibfk_1'),",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblUser",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class TblUser(Base):\n    __tablename__ = 'tblUser'\n    __table_args__ = (\n        ForeignKeyConstraint(['role_id'], ['tblRole.id'], name='tblUser_ibfk_1'),\n        Index('email', 'email', unique=True),\n        Index('role_id', 'role_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    phone_number: Mapped[Optional[str]] = mapped_column(VARCHAR(50))\n    email: Mapped[Optional[str]] = mapped_column(VARCHAR(255))",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "TblFollower",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class TblFollower(TblUser):\n    __tablename__ = 'tblFollower'\n    __table_args__ = (\n        ForeignKeyConstraint(['follower_id'], ['tblUser.id'], name='tblFollower_ibfk_2'),\n        ForeignKeyConstraint(['id'], ['tblUser.id'], name='tblFollower_ibfk_1'),\n        Index('follower_id', 'follower_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    follower_id: Mapped[Optional[int]] = mapped_column(Integer)\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Video(Base):\n    __tablename__ = 'video'\n    __table_args__ = (\n        ForeignKeyConstraint(['owner_id'], ['tblUser.id'], name='video_ibfk_1'),\n        Index('owner_id', 'owner_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    owner_id: Mapped[Optional[int]] = mapped_column(Integer)\n    picture_cover: Mapped[Optional[str]] = mapped_column(VARCHAR(255))\n    title: Mapped[Optional[str]] = mapped_column(Text)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ViewProfile",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class ViewProfile(TblUser):\n    __tablename__ = 'view_profile'\n    __table_args__ = (\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'], name='view_profile_ibfk_2'),\n        ForeignKeyConstraint(['viewer_id'], ['tblUser.id'], name='view_profile_ibfk_1'),\n        Index('viewer_id', 'viewer_id')\n    )\n    user_id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    viewer_id: Mapped[Optional[int]] = mapped_column(Integer)\n    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class Comment(Base):\n    __tablename__ = 'comment'\n    __table_args__ = (\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'], name='comment_ibfk_2'),\n        ForeignKeyConstraint(['video_id'], ['video.id'], name='comment_ibfk_1'),\n        Index('user_id', 'user_id'),\n        Index('video_id', 'video_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    video_id: Mapped[Optional[int]] = mapped_column(Integer)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReactComment",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class ReactComment(Base):\n    __tablename__ = 'react_comment'\n    __table_args__ = (\n        ForeignKeyConstraint(['comment_id'], ['comment.id'], name='react_comment_ibfk_1'),\n        ForeignKeyConstraint(['user_id'], ['tblUser.id'], name='react_comment_ibfk_2'),\n        Index('comment_id', 'comment_id'),\n        Index('user_id', 'user_id')\n    )\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    comment_id: Mapped[Optional[int]] = mapped_column(Integer)",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "t_video_hastag",
+        "kind": 5,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "t_video_hastag = Table(\n    'video_hastag', Base.metadata,\n    Column('video_id', Integer, primary_key=True, nullable=False),\n    Column('hashtag_id', Integer, primary_key=True, nullable=False),\n    ForeignKeyConstraint(['hashtag_id'], ['hashtag.id'], name='video_hastag_ibfk_2'),\n    ForeignKeyConstraint(['video_id'], ['video.id'], name='video_hastag_ibfk_1'),\n    Index('hashtag_id', 'hashtag_id')\n)\nclass ReactComment(Base):\n    __tablename__ = 'react_comment'",
+        "detail": "app.models.models",
+        "documentation": {}
+    }
+]
