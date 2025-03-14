@@ -777,7 +777,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI(debug=True)\napp.include_router(auth_router, prefix=\"/api/v1\")\n# app.include_router(users_router, prefix=\"api/v1\")\n# Cấu hình CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Cho phép tất cả các domain\n    allow_credentials=True,\n    # Cho phép tất cả phương thức (GET, POST, PUT, DELETE, ...)\n    allow_methods=[\"*\"],",
+        "peekOfCode": "app = FastAPI(debug=True)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Hoặc chỉ định [\"http://localhost:3000\"]\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(auth_router, prefix=\"/api/v1\")\n# app.include_router(users_router, prefix=\"api/v1\")",
         "detail": "app.main",
         "documentation": {}
     },

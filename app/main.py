@@ -8,18 +8,16 @@ HOST: str = os.getenv("HOST", "localhost")
 PORT: int = int(os.getenv("PORT", 8000))
 
 app = FastAPI(debug=True)
-app.include_router(auth_router, prefix="/api/v1")
-# app.include_router(users_router, prefix="api/v1")
 
-# Cấu hình CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Cho phép tất cả các domain
+    allow_origins=["*"],  # Hoặc chỉ định ["http://localhost:3000"]
     allow_credentials=True,
-    # Cho phép tất cả phương thức (GET, POST, PUT, DELETE, ...)
     allow_methods=["*"],
-    allow_headers=["*"],  # Cho phép tất cả headers
+    allow_headers=["*"],
 )
+app.include_router(auth_router, prefix="/api/v1")
+# app.include_router(users_router, prefix="api/v1")
 
 
 @app.get("/", tags=["Root"])
