@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from sqlalchemy import Column, DateTime, ForeignKeyConstraint, Index, Integer, Table, Text
-from sqlalchemy.dialects.mysql import VARCHAR
+from sqlalchemy import Column, Date, DateTime, ForeignKeyConstraint, Index, Integer, String, Table, Text, text
+from sqlalchemy.dialects.mysql import TINYINT, VARCHAR
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 import datetime
 
@@ -20,21 +20,22 @@ class Hashtag(Base):
         'Video', secondary='video_hastag', back_populates='hashtag')
 
 
-class TblRole(Base):
-    __tablename__ = 'tblRole'
+class Tblrole(Base):
+    __tablename__ = 'tblrole'
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))
-    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)
+    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(
+        DateTime, server_default=text('CURRENT_TIMESTAMP'))
 
-    tblUser: Mapped[List['TblUser']] = relationship(
-        'TblUser', back_populates='role')
+    tbluser: Mapped[List['Tbluser']] = relationship(
+        'Tbluser', back_populates='role')
 
 
-class TblUser(Base):
-    __tablename__ = 'tblUser'
+class Tbluser(Base):
+    __tablename__ = 'tbluser'
     __table_args__ = (
-        ForeignKeyConstraint(['role_id'], ['tblRole.id'],
+        ForeignKeyConstraint(['role_id'], ['tblrole.id'],
                              name='tblUser_ibfk_1'),
         Index('email', 'email', unique=True),
         Index('role_id', 'role_id')
@@ -49,11 +50,21 @@ class TblUser(Base):
     name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))
     user_name: Mapped[Optional[str]] = mapped_column(VARCHAR(255))
     biography: Mapped[Optional[str]] = mapped_column(Text)
+    birthday: Mapped[Optional[datetime.date]] = mapped_column(Date)
+    create_at: Mapped[Optional[datetime.datetime]] = mapped_column(
+        DateTime, server_default=text('CURRENT_TIMESTAMP'))
+    update_at: Mapped[Optional[datetime.datetime]] = mapped_column(
+        DateTime, server_default=text('CURRENT_TIMESTAMP'))
+    isActive: Mapped[Optional[int]] = mapped_column(
+        TINYINT(1), server_default=text("'0'"))
+    code: Mapped[Optional[str]] = mapped_column(String(10))
+    CodeExpiryTime: Mapped[Optional[datetime.datetime]] = mapped_column(
+        DateTime, server_default=text('CURRENT_TIMESTAMP'))
 
-    role: Mapped[Optional['TblRole']] = relationship(
-        'TblRole', back_populates='tblUser')
-    tblFollower: Mapped[List['TblFollower']] = relationship(
-        'TblFollower', foreign_keys='[TblFollower.follower_id]', back_populates='follower')
+    role: Mapped[Optional['Tblrole']] = relationship(
+        'Tblrole', back_populates='tbluser')
+    tblfollower: Mapped[List['Tblfollower']] = relationship(
+        'Tblfollower', foreign_keys='[Tblfollower.follower_id]', back_populates='follower')
     video: Mapped[List['Video']] = relationship(
         'Video', back_populates='owner')
     view_profile: Mapped[List['ViewProfile']] = relationship(
@@ -64,12 +75,12 @@ class TblUser(Base):
         'ReactComment', back_populates='user')
 
 
-class TblFollower(Base):
-    __tablename__ = 'tblFollower'
+class Tblfollower(Base):
+    __tablename__ = 'tblfollower'
     __table_args__ = (
-        ForeignKeyConstraint(['follower_id'], ['tblUser.id'],
+        ForeignKeyConstraint(['follower_id'], ['tbluser.id'],
                              name='tblFollower_ibfk_2'),
-        ForeignKeyConstraint(['id'], ['tblUser.id'],
+        ForeignKeyConstraint(['id'], ['tbluser.id'],
                              name='tblFollower_ibfk_1'),
         Index('follower_id', 'follower_id')
     )
@@ -78,14 +89,14 @@ class TblFollower(Base):
     follower_id: Mapped[Optional[int]] = mapped_column(Integer)
     create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)
 
-    follower: Mapped[Optional['TblUser']] = relationship(
-        'TblUser', foreign_keys=[follower_id], back_populates='tblFollower')
+    follower: Mapped[Optional['Tbluser']] = relationship(
+        'Tbluser', foreign_keys=[follower_id], back_populates='tblfollower')
 
 
 class Video(Base):
     __tablename__ = 'video'
     __table_args__ = (
-        ForeignKeyConstraint(['owner_id'], ['tblUser.id'],
+        ForeignKeyConstraint(['owner_id'], ['tbluser.id'],
                              name='video_ibfk_1'),
         Index('owner_id', 'owner_id')
     )
@@ -97,8 +108,8 @@ class Video(Base):
 
     hashtag: Mapped[List['Hashtag']] = relationship(
         'Hashtag', secondary='video_hastag', back_populates='video')
-    owner: Mapped[Optional['TblUser']] = relationship(
-        'TblUser', back_populates='video')
+    owner: Mapped[Optional['Tbluser']] = relationship(
+        'Tbluser', back_populates='video')
     comment: Mapped[List['Comment']] = relationship(
         'Comment', back_populates='video')
 
@@ -106,9 +117,9 @@ class Video(Base):
 class ViewProfile(Base):
     __tablename__ = 'view_profile'
     __table_args__ = (
-        ForeignKeyConstraint(['user_id'], ['tblUser.id'],
+        ForeignKeyConstraint(['user_id'], ['tbluser.id'],
                              name='view_profile_ibfk_2'),
-        ForeignKeyConstraint(['viewer_id'], ['tblUser.id'],
+        ForeignKeyConstraint(['viewer_id'], ['tbluser.id'],
                              name='view_profile_ibfk_1'),
         Index('viewer_id', 'viewer_id')
     )
@@ -117,14 +128,14 @@ class ViewProfile(Base):
     viewer_id: Mapped[Optional[int]] = mapped_column(Integer)
     create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)
 
-    viewer: Mapped[Optional['TblUser']] = relationship(
-        'TblUser', foreign_keys=[viewer_id], back_populates='view_profile')
+    viewer: Mapped[Optional['Tbluser']] = relationship(
+        'Tbluser', foreign_keys=[viewer_id], back_populates='view_profile')
 
 
 class Comment(Base):
     __tablename__ = 'comment'
     __table_args__ = (
-        ForeignKeyConstraint(['user_id'], ['tblUser.id'],
+        ForeignKeyConstraint(['user_id'], ['tbluser.id'],
                              name='comment_ibfk_2'),
         ForeignKeyConstraint(['video_id'], ['video.id'],
                              name='comment_ibfk_1'),
@@ -138,8 +149,8 @@ class Comment(Base):
     user_id: Mapped[Optional[int]] = mapped_column(Integer)
     create_at: Mapped[Optional[datetime.datetime]] = mapped_column(DateTime)
 
-    user: Mapped[Optional['TblUser']] = relationship(
-        'TblUser', back_populates='comment')
+    user: Mapped[Optional['Tbluser']] = relationship(
+        'Tbluser', back_populates='comment')
     video: Mapped[Optional['Video']] = relationship(
         'Video', back_populates='comment')
     react_comment: Mapped[List['ReactComment']] = relationship(
@@ -163,7 +174,7 @@ class ReactComment(Base):
     __table_args__ = (
         ForeignKeyConstraint(['comment_id'], ['comment.id'],
                              name='react_comment_ibfk_1'),
-        ForeignKeyConstraint(['user_id'], ['tblUser.id'],
+        ForeignKeyConstraint(['user_id'], ['tbluser.id'],
                              name='react_comment_ibfk_2'),
         Index('comment_id', 'comment_id'),
         Index('user_id', 'user_id')
@@ -176,5 +187,5 @@ class ReactComment(Base):
 
     comment: Mapped[Optional['Comment']] = relationship(
         'Comment', back_populates='react_comment')
-    user: Mapped[Optional['TblUser']] = relationship(
-        'TblUser', back_populates='react_comment')
+    user: Mapped[Optional['Tbluser']] = relationship(
+        'Tbluser', back_populates='react_comment')

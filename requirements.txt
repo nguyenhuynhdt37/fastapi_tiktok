@@ -8,3 +8,9 @@ sqlacodegen # cài đặt thư viện sqlacodegen dùng để sinh ra model từ
 asyncmy # cài đặt thư viện asyncmy dùng để kết nối với database mysql
 mysql-connector-python # cài đặt thư viện mysql-connector-python dùng để kết nối với database mysql
 fastapi[all] # cài đặt thư viện fastapi[all] bao gồm tất cả các thư viện cần thiết
+pymysql # cài đặt thư viện pymysql dùng để kết nối với database mysql
+aiosmtplib 
+email-validator 
+pydantic
+jinja2 
+aiosmtplib
